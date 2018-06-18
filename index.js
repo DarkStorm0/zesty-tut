@@ -21,6 +21,11 @@ bot.on("message", async message => {
   }
 });
 
+  if (cmd === `${prefix}Storm`){
+    message.channel.send("Storm is our Lord!");
+  }
+});
+
 
 
 bot.login(process.env.token);
