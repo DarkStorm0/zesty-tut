@@ -11,7 +11,7 @@ bot.on("message", async message => {
   if (message.author.bot) return;
   if (message.channel.type === "dm") return;
 
-  let prefix = '-';
+  let prefix = 's!';
   let messageArray = message.content.split(" ");
   let cmd = messageArray[0];
   let args = messageArray.slice(1);
@@ -20,5 +20,11 @@ bot.on("message", async message => {
     message.channel.send("Pong!");
   }
 });
+
+if (cmd === `${prefix}storm`){
+    message.channel.send("I am made by Storm!");
+  }
+});
+
 
 bot.login(process.env.token);
