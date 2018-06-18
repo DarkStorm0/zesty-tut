@@ -19,6 +19,9 @@ bot.on("message", async message => {
   if (cmd === `${prefix}storm`){
     message.channel.send("Storm is our lord!");
  
+    if (cmd === `${prefix}storm2`){
+    message.channel.send("Storm is our lord2!");
+
   
   }
 });
