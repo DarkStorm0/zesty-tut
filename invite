@@ -1,0 +1,14 @@
+exports.run = (message, bot) => {
+    let text = "Invite Storm to *Your* server for the next level of Server Management now!\nhttps://discordapp.com/api/oauth2/authorize?client_id=452711777013071883&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.gg%2FjDrGXPu&scope=bot";
+    message.channel.send(text)
+}
+
+exports.conf = {
+  userPerm:[],
+  botPerm:["SEND_MESSAGES"],
+  coolDown:0,
+  dm:true,
+  category:"Other",
+  help:"Invite Storm to your server.",
+  args:"",
+}  
