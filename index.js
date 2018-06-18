@@ -21,10 +21,6 @@ bot.on("message", async message => {
   }
 });
 
-if (cmd === `${prefix}storm`){
-    message.channel.send("I am made by Storm!");
-  }
-});
 
 
 bot.login(process.env.token);
