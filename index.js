@@ -19,7 +19,9 @@ bot.on("message", async message => {
   if (cmd === `${prefix}storm`){
     message.channel.send("Storm is our lord!");
  
-
+  client.on('message', message => {
+    if (message.content === 'ping') {
+    	message.reply('pong');
     
     
     
