@@ -1,1 +1,1 @@
-worker: node gay.js
+worker: node index.js
