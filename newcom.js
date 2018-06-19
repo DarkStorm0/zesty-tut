@@ -1,2 +1,2 @@
-  if (cmd === `${prefix}storm`){
-    message.channel.send("Storm is our lord!");
+  if (cmd === `${prefix}lol`){
+    message.channel.send("die!");
